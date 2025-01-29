@@ -13,7 +13,7 @@ public class Car_Chapter15 {
 		System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
 		
 		// 現在のギアをフィールドに代入
-//		this.gear = afterGear;
+		this.gear = afterGear;
 		
 		// ギアに応じて速度を変更
 		switch(afterGear) {
